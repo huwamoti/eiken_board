@@ -22,3 +22,7 @@ Route::post('eiken','EikenController@create');
 
 Route::get('article', 'EikenController@delete')->name('article_delete');
 Route::post('article', 'EikenController@remove')->name('article_remove');
+
+Route::get('kentei', function () {
+    return view('layouts.kenteiapp');
+});
