@@ -6,7 +6,7 @@
 
 
 ## サイト
-http://amenbo3.xsrv.jp/eiken
+http://eiken-board.com/eiken
 ただ今、面接官の方だけ公開にしております。パスワードは職務経歴書に書いております。
 
 ## 簡単な機能説明
