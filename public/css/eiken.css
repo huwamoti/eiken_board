@@ -7,6 +7,7 @@ header{
 }
 h1{
 	margin-top:8px;
+	text-align:center;
 }
 
 .form{
@@ -35,21 +36,14 @@ h1{
 .board{
 	margin-bottom:30px;
 }
-.label1{
-	width:1000px;
-	height:80px;
-	background-color:#b0c4de;
-	text-align:left;
-	
-	}
-.label2{
+.label_brown{
 	width:1000px;
 	height:80px;
 	background-color:#cd853f;
 	text-align:left;
 	}
 	
-.label3{
+.label_green{
 	width:1000px;
 	height:80px;
 	background-color:#8fbc8f;
@@ -64,19 +58,14 @@ h1{
 	
 }
 
-.minus_one,.minus_two,.minus_three,.plus_one,.plus_two,.plus_three{
+.minus_two,.minus_three,.plus_two,.plus_three{
 	position:absolute;
 	top:25px;
 	left:960px;
 	z-index:100;
 }
 
-.lower_content_one{
-	width:1000px;
-	background-color:lavender;
-	height:150px;
-	margin-top:-17px;
-}
+
 .lower_content_two{
 	width:1000px;
 	background-color:burlywood;
@@ -106,35 +95,36 @@ h2,h3{
     width:200px;
     height:30px;
     }
+
 .name{
+	margin-top:5px;
+	margin-left:30px;
+} 
+.name_space{
 	width:200px;
 	height:30px;
 	margin-left:47px;
 }  
-.namae{
-	margin-top:5px;
-	margin-left:30px;
-} 
 .category{
 	margin-left:30px;
-	margin-top:5px;
+	margin-top:10px;
+	
 }
-.category_box{
-	margin-top:3px;
+.category_space{
 	width:200px;
 	height:30px;
-	margin-left:32px;
-} 
-
-.message{
-	margin-left:30px;
+	margin-left:47px;
 	margin-top:5px;
 }
-.message2{
+.message{
+	margin-left:30px;
+	margin-top:10px;
+}
+.message_space{
 	width:400px;
 	height:30px;
 	margin-left:15px;
-	margin-top:3px;
+	margin-top:5px;
 }
 .next{
     text-align:left;
@@ -151,14 +141,15 @@ h2,h3{
     margin-left:30px;
     padding-top:10px;
 }
-.id{
-	margin-top:2px;
+.id{ 
 	margin-left:30px;
+	margin-top:10px;
 }
-.id2{
+.id_space{
 	width:200px;
 	height:30px;
-	margin-left:45px;
+	margin-left:30px;
+	margin-top:5px;
 }
 .pass{
 	margin-top:5px;
@@ -175,7 +166,7 @@ h2,h3{
 }
 .explain{margin-top:15px;
  }
-.upper_content1,.upper_content2,.upper_content3{
+.upper_content2,.upper_content3{
 	cursor:pointer;
 	height:80px;
 
@@ -215,7 +206,7 @@ table td{
 th:nth-of-type(1){
 	width: 50px;
 }
- th:nth-of-type(2){
+th:nth-of-type(2){
 	width: 50px;
 }
 th:nth-of-type(3){
@@ -244,4 +235,5 @@ td:nth-of-type(4n){
 		font-size:20px;
 }
 footer{
-   text-align:center;}
+   text-align:center;
+}
