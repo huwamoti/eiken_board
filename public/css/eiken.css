@@ -126,17 +126,13 @@ h2,h3{
 	margin-left:15px;
 	margin-top:5px;
 }
-.next{
-    text-align:left;
-    margin-left:30px;
-    padding-top:10px;
-    }
-.next2{
+
+.next_write{
 	text-align:left;
     margin-left:30px;
     padding-top:30px;
 }
-.next3{
+.next_delete{
 	text-align:left;
     margin-left:30px;
     padding-top:10px;
