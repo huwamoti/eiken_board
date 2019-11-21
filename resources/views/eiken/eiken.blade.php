@@ -5,15 +5,15 @@
 				<form action="/eiken" method="post">
 							{{csrf_field()}}
 					<div class="form">
-						<label class="namae">お名前</label><input type="text" class="name" name="name" title="必須です" required>
+						<label class="name">お名前</label><input type="text" class="name_space" name="name" title="必須です" required>
 					</div>
 
 					<div class="form">
-						<label class="category">取得級</label><input type="text" class="category" name="category" title="必須です" required>
+						<label class="category">取得級</label><input type="text" class="category_space" name="category" title="必須です" required>
 					</div>
 					  
 					<div class="form">
-						<label class="message">メッセージ</label><input type="text" class="message2" name="message" title="必須です" required >
+						<label class="message">メッセージ</label><input type="text" class="message_space" name="message" title="必須です" required >
 					</div>
 					   	 <input type="submit" value="書き込む" class="btn-flat-border" >
 				</form>
@@ -48,7 +48,7 @@
                 <form action="{{ route('article_remove')}}" method="post">
 					{{csrf_field()}}
 				    <div class="form">
-						<label class="id">記事のID</label><input type="text" pattern="^[0-9]+$" class="id2" name="id" title="半角数字で入力してください" required >
+						<label class="id">記事のID</label><input type="text" pattern="^[0-9]+$" class="id_space" name="id" title="半角数字で入力してください" required >
 				   	</div>
 						<input type="submit" value="削除" class="btn-flat-border">
 				</form> 
