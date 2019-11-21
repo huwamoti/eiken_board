@@ -35,21 +35,14 @@ h1{
 .board{
 	margin-bottom:30px;
 }
-.label1{
-	width:1000px;
-	height:80px;
-	background-color:#b0c4de;
-	text-align:left;
-	
-	}
-.label2{
+.label_brown{
 	width:1000px;
 	height:80px;
 	background-color:#cd853f;
 	text-align:left;
 	}
 	
-.label3{
+.label_green{
 	width:1000px;
 	height:80px;
 	background-color:#8fbc8f;
@@ -106,35 +99,36 @@ h2,h3{
     width:200px;
     height:30px;
     }
+
 .name{
+	margin-top:5px;
+	margin-left:30px;
+} 
+.name_space{
 	width:200px;
 	height:30px;
 	margin-left:47px;
 }  
-.namae{
-	margin-top:5px;
-	margin-left:30px;
-} 
 .category{
 	margin-left:30px;
-	margin-top:5px;
+	margin-top:10px;
+	
 }
-.category_box{
-	margin-top:3px;
+.category_space{
 	width:200px;
 	height:30px;
-	margin-left:32px;
-} 
-
-.message{
-	margin-left:30px;
+	margin-left:47px;
 	margin-top:5px;
 }
-.message2{
+.message{
+	margin-left:30px;
+	margin-top:10px;
+}
+.message_space{
 	width:400px;
 	height:30px;
 	margin-left:15px;
-	margin-top:3px;
+	margin-top:5px;
 }
 .next{
     text-align:left;
@@ -244,4 +238,5 @@ td:nth-of-type(4n){
 		font-size:20px;
 }
 footer{
-   text-align:center;}
+   text-align:center;
+}
