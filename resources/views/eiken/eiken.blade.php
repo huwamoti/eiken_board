@@ -9,8 +9,7 @@
 					</div>
 
 					<div class="form">
-						<label class="category">取得した級</label>
-						<input type="text" class="category" name="category" title="必須です" required>
+						<label class="category">取得級</label><input type="text" class="category" name="category" title="必須です" required>
 					</div>
 					  
 					<div class="form">
