@@ -5,7 +5,7 @@ $(function(){
 	$(".minus_two").css("display","none");
 	$(".minus_three").css("display","none");
 	
- 	$(".upper_content2").click(function(){
+ 	$(".upper_content_brown").click(function(){
  		$(".lower_content_two").slideToggle(500);
  		$(".upper_content2").toggleClass("active");
  	if($(".upper_content2").hasClass("active")){
@@ -18,7 +18,7 @@ $(function(){
  	}
  	});
  	
- 	$(".upper_content3").click(function(){
+ 	$(".upper_content_green").click(function(){
  		$(".lower_content_three").slideToggle(500);
  		$(".upper_content3").toggleClass("active");
  	if($(".upper_content3").hasClass("active")){
