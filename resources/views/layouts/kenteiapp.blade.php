@@ -16,7 +16,7 @@
 					<h2 class="board">掲示板のメニュー</h2>	
 				<div class="menu">
 					    
-						<div class="upper_content2">
+						<div class="upper_content_brown">
 							<div class="label2"></div>
 								<h3 class="ore">新規記事の書き込み</h3>
 									<div class="square">
@@ -34,7 +34,7 @@
 						@yield('content')
 						</div>		
 
-				    <div class="upper_content3">
+				    <div class="upper_content_green">
 						<div class="label3"></div>
 							<h3 class="mido">記事の削除(管理者専用)</h3>
 								<div class="square">
