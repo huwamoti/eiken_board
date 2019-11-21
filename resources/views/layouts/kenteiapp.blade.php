@@ -17,7 +17,7 @@
 				<div class="menu">
 					    
 						<div class="upper_content2">
-							<div class="label2"></div>
+							<div class="label_brown"></div>
 								<h3 class="ore">新規記事の書き込み</h3>
 									<div class="square">
 										<div class="minus_two">
@@ -35,7 +35,7 @@
 						</div>		
 
 				    <div class="upper_content3">
-						<div class="label3"></div>
+						<div class="label_green"></div>
 							<h3 class="mido">記事の削除(管理者専用)</h3>
 								<div class="square">
 									<div class="minus_three ">
