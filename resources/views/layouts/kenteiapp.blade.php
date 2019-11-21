@@ -30,7 +30,7 @@
 						</div>
 					
 						<div class="lower_content_two">
-							<p class="next2">次の項目を入力し、「書き込む」ボタンをクリックしてください。</p>
+							<p class="next_write">次の項目を入力し、「書き込む」ボタンをクリックしてください。</p>
 						@yield('content')
 						</div>		
 
@@ -48,7 +48,7 @@
 					</div>
 
 				    	<div class="lower_content_three">
-							<p class="next3">次の項目を入力し、「削除」ボタンをクリックしてください。</p>
+							<p class="next_delete">次の項目を入力し、「削除」ボタンをクリックしてください。</p>
 				        @yield('distinguish')
 				    	</div>
 				</div>   
