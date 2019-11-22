@@ -33,13 +33,7 @@ class EikenController extends Controller
        
     }
 
-    public function delete(Request $request)
-    {
-        
-            $param=['id'=>$request->id];
-            $item=DB::select('select * from eiken where id=:id',$param);
-        
-     }
+   
     public function remove(Request $request)
     {
         
