@@ -25,3 +25,6 @@ Route::post('article', 'EikenController@remove')->name('article_remove');
 Route::get('kentei', function () {
     return view('layouts.kenteiapp');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
