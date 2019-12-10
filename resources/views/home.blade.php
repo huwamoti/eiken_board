@@ -21,7 +21,7 @@
 					
 						<div class="lower_content_two">
 							<p class="next_write">次の項目を入力し、「書き込む」ボタンをクリックしてください。</p>
-                            <form action="/eiken" method="post">
+                            <form action="/home" method="post">
 							{{csrf_field()}}
 					<div class="form">
 						<label class="name">お名前</label><input type="text" class="name_space" name="name" title="必須です" required>
@@ -53,7 +53,7 @@
 
 				    	<div class="lower_content_three">
 							<p class="next_delete">次の項目を入力し、「削除」ボタンをクリックしてください。</p>
-                            <form action="{{ route('article_remove')}}" method="post">
+                            <form action="{{ route('article_delete')}}" method="post">
 					{{csrf_field()}}
 				    <div class="form">
 						<label class="id">記事のID</label><input type="text" pattern="^[0-9]+$" class="id_space" name="id" title="半角数字で入力してください" required >
