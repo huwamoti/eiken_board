@@ -4,10 +4,17 @@ header{
 	
 	height:70px;
 	width:100%;
+	
+
+}
+header p{
+	border:solid 1px black;
+	width:80px;
 }
 h1{
-	margin-top:8px;
 	text-align:center;
+	
+	
 }
 
 .form{
@@ -52,7 +59,7 @@ h1{
 	
 .mu,.ore,.mido{
 	position:absolute;             
-	top:10px;
+	top:25px;
 	left:50px;
 	color:black;
 	
@@ -130,12 +137,12 @@ h2,h3{
 .next_write{
 	text-align:left;
     margin-left:30px;
-    padding-top:30px;
+    padding-top:40px;
 }
 .next_delete{
 	text-align:left;
     margin-left:30px;
-    padding-top:10px;
+    padding-top:20px;
 }
 .id{ 
 	margin-left:30px;
