@@ -30,3 +30,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/home', 'HomeController@create');
 Route::post('delete', 'HomeController@remove')->name('article_delete');
+
+Route::get('board', function () {
+    return view('layouts.app');
+});
