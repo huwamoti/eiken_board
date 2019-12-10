@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -25,4 +26,37 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    
+    public function index(Request $request)
+    {
+        $items=DB::select('select * from eiken');
+        return view('eiken.eiken',['items'=>$items]);
+    }
+
+    public function create(Request $request)
+    {
+        
+        $param=[
+            'name'=>$request->name,
+            'category'=>$request->category,
+            'message'=>$request->message,
+        ];
+        DB::insert('insert into eiken (name,category,message) values (:name,:category,:message)',$param);
+        return redirect('/eiken');
+       
+    }
+
+   
+    public function remove(Request $request)
+    {
+        
+            $param=['id'=>$request->id];
+            DB::delete('delete from eiken where id=:id',$param);
+            return redirect('/eiken');
+        
+       
+    }
+
+
+
 }
