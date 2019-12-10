@@ -29,4 +29,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/home', 'HomeController@create');
-Route::post('/home', 'HomeController@remove')->name('article_delete');
+Route::post('delete', 'HomeController@remove')->name('article_delete');
