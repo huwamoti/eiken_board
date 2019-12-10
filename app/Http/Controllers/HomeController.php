@@ -22,15 +22,11 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
-    {
-        return view('home');
-    }
     
     public function index(Request $request)
     {
         $items=DB::select('select * from eiken');
-        return view('eiken.eiken',['items'=>$items]);
+        return view('home',['items'=>$items]);
     }
 
     public function create(Request $request)
@@ -42,7 +38,7 @@ class HomeController extends Controller
             'message'=>$request->message,
         ];
         DB::insert('insert into eiken (name,category,message) values (:name,:category,:message)',$param);
-        return redirect('/eiken');
+        return redirect('/home');
        
     }
 
@@ -52,7 +48,7 @@ class HomeController extends Controller
         
             $param=['id'=>$request->id];
             DB::delete('delete from eiken where id=:id',$param);
-            return redirect('/eiken');
+            return redirect('/home');
         
        
     }
