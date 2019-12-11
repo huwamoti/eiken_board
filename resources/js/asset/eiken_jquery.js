@@ -1,4 +1,8 @@
 $(function(){
+	$(".lower_content_two").css("display","none");
+	$(".lower_content_three").css("display","none");
+	$(".minus_two").css("display","none");
+	$(".minus_three").css("display","none");
 	
  	$(".upper_content2").click(function(){
  		$(".lower_content_two").slideToggle(500);
