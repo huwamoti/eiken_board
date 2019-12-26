@@ -40,7 +40,7 @@
 
 				    <div class="upper_content3">
 						<div class="label_green"></div>
-							<h3 class="mido">記事の削除(管理者専用)</h3>
+							<h3 class="mido">記事の削除</h3>
 								<div class="square">
 									<div class="minus_three ">
 										ー
@@ -52,7 +52,7 @@
 					</div>
 
 				    	<div class="lower_content_three">
-							<p class="next_delete">次の項目を入力し、「削除」ボタンをクリックしてください。</p>
+							<p class="next_delete">次の項目を入力し、「削除」ボタンをクリックしてください。※ご自分で投稿した記事のみ削除ができます</p>
                             <form action="{{ route('article_delete')}}" method="post">
 					{{csrf_field()}}
 				    <div class="form">
